@@ -21,6 +21,22 @@ def magic_number_game():
 		print("{} Isn't Not quite..try guessing a higher number!".format(user_guess))
 
 
+
+######################
 #Notes for future dev plans:
+#####################
+
+#1
 #consider adding logic to let the user know to guess higher or lower, depending on their response. 
 # ^ DONE on 11/29/18
+# could be refactored to give the greater than and less than instances their own method.
+#e.g.
+#User guesses too low
+#def user_guess_low(num1, num2):
+                #return num1 < num2
+#user guesses too high
+#def magic_number_high(num1, num2):
+                #return num1 > num2
+
+
+#2
